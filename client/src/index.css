@@ -1,0 +1,22 @@
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --card: #f4f4f4;
+  --accent: #0969da;
+}
+
+[data-theme='dark'] {
+  --bg: #0d1117;
+  --text: #e6edf3;
+  --card: #161b22;
+  --accent: #58a6ff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
